@@ -1,0 +1,95 @@
+// Git Installation from below location
+https://git-scm.com/download/
+
+// Add Git extension in VS code from below location 
+click on "Install the GitHub Pull Requests and Issues extension" from the below link
+https://code.visualstudio.com/docs/editor/github
+
+// A popup will prompt to open the VS code > click on the install button for "GitHub Pull Requests and Issues"
+
+
+// After Git Installation> Open the 'Git Bash' by typing 'Git Bash' in the windows search
+// In Git Bash set a user name and user email
+
+Open Git Bash.
+
+// Set a Git username:
+$ git config --global user.name "WilliamTRev"
+
+// Confirm that you have set the Git username correctly:
+$ git config --global user.name
+> WilliamTRev
+
+
+// Set a Git useremail:
+$ git config --global user.email william@gmail.com
+
+// Confirm that you have set the Git useremail correctly:
+$ git config --global user.email
+> william@gmail.com
+-----------------------------------------------------------------
+
+// Signup in GitHub
+https://github.com/login
+
+// After signup, Login into the GitHub account from the browser
+
+// Click on 'Your Repositories' from the sub menu (Top right corner of the screen in GitHub'
+
+// Click on New > give a repository name and click 'create repository'
+Test2
+
+// Then click on top of the search bar and copy the repository location URL
+https://github.com/WilliamTRev/Test2
+
+// Then Open VS Code > select the VS code that needs to be cloned in GitHub
+
+// and then click on version control icon on the left panel
+
+// Then Click on Initialize Repositories
+
+// then give any commit message and press Ctrl + Enter or click on the commit button shown next to source control text
+commit2
+
+// Click on yes in the pop up message (will you like to stage all your....)
+
+// then click on 'three dot icon' next to the source control text > Click on 'Pull,Push' > then click on 'Push to" > then click on add a new remote > then paste the URL(https://github.com/WilliamTRev/Test2)
+
+// Then add a remote name
+Test2 (or any other name)
+
+// Again click on 'three dot icon' next to the source control text > Click on 'Pull,Push' > then click on 'Push to" > Here now it shows
+Test2 https://github.com/WilliamTRev/Test2
+
+Clcik on that and press Enter
+
+// First time it will ask to Authenticate with GitHub
+
+// Complete the authentication
+
+// Open the Github folder and refresh
+
+// Now the project is posted successfully from VS Code to GitHub
+
+
+
+-----------------------------------------------------------------
+
+Errors:
+1. If Git not found in VS Code
+// Open cmd > enter 'where git'> it will give the location where git is installed in the system
+Result: C:\Users\WilliamTerry\AppData\Local\Programs\Git\cmd\git.exe
+// go to VS Code > file> Preferences> settings > Search: path to git > under 'Git: Path" > click on "Edit in settings.json"
+// Add the below location found from command prompt
+
+git.path": "C:\\Users\\WilliamTerry\\AppData\\Local\\Programs\\Git\\cmd\\git.exe  "
+
+// Restart VS Code > you will find that 'Publish to GitHub' button is activated when you click the 'Source Control' option in the left panel of the VS Code
+
+
+
+
+---------------------------------------------------------------------
+Reference Links:
+
+1. https://www.youtube.com/watch?v=vRxfnHtCxEo
