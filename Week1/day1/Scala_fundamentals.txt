@@ -31,8 +31,6 @@ var x = 5
 11)
 val s = if (x> 0 && x<6) 1 else 0
 
-vim Demo_1.scala
-
 object Demo_1{
 def main(args:Array[String]):Unit= {
 	var x=15;
@@ -70,8 +68,8 @@ for (i<-0 until in.length) sum+=i
 print(sum)
 
 18)
-for(i<-1 to 3;j<-1 to 3)
-println(10*i+j)
+for(i<-1 to 3;j<-1 to 3){
+println(10*i+j)}
 
 19)
 for(i<-1 to 3;j<-1 to 3 if i==j) println(10*i+j)
@@ -83,8 +81,8 @@ for(i<-1 to 3;x=4-i;j<- x to 3) println(10*i+j)
 val x = for(i<-1 to 20)yield i*2.5
 for (i<-x) println(i)
 
-while loop
-vim Demo_4.scala
+//while loop
+
 Object Demo_4{
 def main(args:Array[String]) {
 var a=10;
@@ -95,7 +93,7 @@ a= a+1;
 } }
 
 
-dowhile loop
+//dowhile loop
 var nodb = 2
 
 do {
@@ -175,7 +173,7 @@ a ++=Array(6,7,8)
 
 practice for Array
 -----------------------------------------------------------------
-https://www.geeksforgeeks.org/scala-arrays/
+//https://www.geeksforgeeks.org/scala-arrays/
 ----------------------------------------------------------------
 
 27) List
@@ -217,7 +215,7 @@ val y = sum(lst)
 
 practice for Array
 --------------------------------------------------------------------------
-https://www.geeksforgeeks.org/scala-lists/
+//https://www.geeksforgeeks.org/scala-lists/
 --------------------------------------------------------------------------
 
 28)Tuples

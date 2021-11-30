@@ -247,7 +247,7 @@ object GFG{
 8)Error handling with Try
 
 def failingFn(i: Int): Int = {
-  val y: Int = throw new Exception("fail!")	
+  val y:Int = throw new Exception("fail!")	
   try {
     val x = 42 + 5
     x + y
@@ -262,6 +262,8 @@ def failingFn2(i: Int): Int = {
   }
   catch { case e: Exception => 43 }
 }
+
+failingFn2(12)
 
 def mean_1(xs: IndexedSeq[Double], onEmpty: Double): Double =
   if (xs.isEmpty) onEmpty
