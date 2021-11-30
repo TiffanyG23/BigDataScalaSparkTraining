@@ -33,13 +33,14 @@ val s = if (x> 0 && x<6) 1 else 0
 
 vim Demo_1.scala
 
-Object Demo_1{
-def main(args:Array[String]) {
-var x=15;
-if( x<20) {
-println("This is if statement");
+object Demo_1{
+def main(args:Array[String]):Unit= {
+	var x=15;
+	if( x<20) {
+		println("This is if statement");
+		}
+	} 
 }
-} }
 
 
 12)
